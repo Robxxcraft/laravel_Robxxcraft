@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$primary: #cf0707;
+$secondary: #929292;
+$accordion-icon-color: white;
+$accordion-icon-active-color: white;
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+}
+
+a { 
+    text-decoration: none;
+    color: currentColor;
+}
+
+.link:hover {
+    color: #cf0707 !important;
+}
